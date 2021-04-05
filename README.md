@@ -1,1 +1,1 @@
-# O-WebGlCourse
+# WebGlCourse
