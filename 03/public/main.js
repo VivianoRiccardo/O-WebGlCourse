@@ -18,22 +18,6 @@ if (!gl){
  * draw
  * */
 
-var x = 10;
-var y = 10;
-var z = 10;
-
-const matrix = [
-	1,0,0,0,
-	0,1,0,0,
-	0,0,1,0,
-	x,y,z,1
-];
-
-
-matrix*[2,3,4,1] //translate for each direction *10 
-
-//identity matrix
-
 const vertexData = [0, 1, 0,
 					1, -1, 0,
 					-1,-1,0,];//x, y, z coordinates for each row (3 vertices)
